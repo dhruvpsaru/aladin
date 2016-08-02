@@ -1,0 +1,37 @@
+################Control configuration File##################
+
+#es settings
+#es.cluster.name: freak
+#es.ip: 127.0.0.1
+#es.port: 9300
+
+
+##jetty settings
+jetty.port: 8080
+jetty.host.ip: 127.0.0.1
+
+
+##hibernate properties
+hibernate.cache.provider_class: org.hibernate.cache.NoCacheProvider
+hibernate.dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+hibernate.connection.driver_class: com.mysql.jdbc.Driver
+hibernate.connection.driver: com.mysql.jdbc.Driver
+
+hibernate.connection.url: jdbc:mysql://127.0.0.1:3306/knock_me
+hibernate.connection.user: root
+hibernate.connection.password: root
+
+hibernate.hbm2ddl.auto: update
+hibernate.show_sql: false
+hibernate.use_sql_comments: false
+hibernate.generate_statistics: false
+
+hibernate.c3p0.min_size: 1
+hibernate.c3p0.max_size: 4
+hibernate.c3p0.timeout: 1800
+hibernate.c3p0.max_statements: 50
+hibernate.c3p0.idle_test_period: 3600
+hibernate.c3p0.debugUnreturnedConnectionStackTraces: true
+hibernate.c3p0.unreturnedConnectionTimeout: 4200
+
+
