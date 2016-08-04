@@ -1,4 +1,13 @@
 var React = require('react');
+var axios = require('axios');
+
+const BASE_URL = 'http://172.16.1.61:8080/tp';
+const POST_CONFIG = {
+    headers: {
+        'Content-Type': 'application/json;charset=utf-8'
+    }
+};
+
 var LoginForm = React.createClass({
     getDefaultProps: function(){
         return {
@@ -22,6 +31,12 @@ var LoginForm = React.createClass({
         }
             
         alert("send to server username="+usernameValue+"     password="+passwordValue);
+        //var requestUrl = '${BASE_URL}/echo';
+        axios.post(BASE_URL,{username:usernameValue, password:passwordValue}, POST_CONFIG).then(function(res){
+            console.log("-----success------"+res.data);
+        }, function(res){
+            console.log("-----error------");
+        });
     },
     render: function(){
         return (
