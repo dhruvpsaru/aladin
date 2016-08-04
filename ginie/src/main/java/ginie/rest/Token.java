@@ -19,13 +19,13 @@ public class Token {
 
     private static Logger LOGGER = LoggerFactory.getLogger(Token.class);
 
-
-    @POST
-    @Path("/token")
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response token(AuthDetails authDetails){
-
-    }
+//
+//    @POST
+//    @Path("/token")
+//    @Consumes(MediaType.APPLICATION_JSON)
+//    @Produces(MediaType.APPLICATION_JSON)
+//    public Response token(AuthDetails authDetails){
+//
+//    }
 
 }

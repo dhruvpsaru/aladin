@@ -12,5 +12,6 @@ public class RestModule extends AbstractModule {
     protected void configure() {
         bind(DefaultServlet.class).asEagerSingleton();
         bind(TestAPI.class).asEagerSingleton();
+        bind(CORSFilter.class).asEagerSingleton();
     }
 }

@@ -1,6 +1,7 @@
 package ginie.database;
 
 import com.google.inject.AbstractModule;
+import ginie.database.Repository.TestRepository;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -17,6 +18,9 @@ public class DBModule extends AbstractModule {
     protected void configure() {
         bind(EntityManagerFactory.class).toProvider(EntityManagerFactoryProvider.class).asEagerSingleton();
         bind(EntityManager.class).toProvider(EntityManagerProvider.class).asEagerSingleton();
+
+
+        bind(TestRepository.class).asEagerSingleton();
     }
 
 

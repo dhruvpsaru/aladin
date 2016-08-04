@@ -17,7 +17,7 @@ public class Test implements Serializable{
     private Long id;
 
     @Basic
-    @Column(name = "userNme")
+    @Column(name = "userName")
     private String userName;
 
     @Basic
