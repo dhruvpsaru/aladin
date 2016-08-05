@@ -1,7 +1,7 @@
 package ginie.rest;
 
 import com.google.inject.Inject;
-import ginie.database.Repository.TestRepository;
+import ginie.database.Repository.TestDao;
 import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,7 +23,7 @@ public class TestAPI {
 
 
     @Inject
-    private TestRepository testRepository;
+    private TestDao testDao;
 
     @GET
     @Produces(MediaType.TEXT_PLAIN)
@@ -51,7 +51,7 @@ public class TestAPI {
         String password = jsonObject.getString("password");
 
         LOGGER.info("userName  : {}, password {} ", userName, password);
-        List list = testRepository.isPresent(userName, password);
+        List list = testDao.isPresent(userName, password);
 
         if (!list.isEmpty()) {
             return Response.ok("{\n" +

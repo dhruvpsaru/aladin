@@ -1,7 +1,7 @@
 package ginie.database;
 
 import com.google.inject.AbstractModule;
-import ginie.database.Repository.TestRepository;
+import ginie.database.Repository.TestDao;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
@@ -20,7 +20,7 @@ public class DBModule extends AbstractModule {
         bind(EntityManager.class).toProvider(EntityManagerProvider.class).asEagerSingleton();
 
 
-        bind(TestRepository.class).asEagerSingleton();
+        bind(TestDao.class).asEagerSingleton();
     }
 
 

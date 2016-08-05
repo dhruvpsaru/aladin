@@ -8,7 +8,7 @@
 
 ##jetty settings
 jetty.port: 8080
-jetty.host.ip: 172.16.1.61
+jetty.host.ip: 0.0.0.0
 
 
 ##hibernate properties

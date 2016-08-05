@@ -1,5 +1,7 @@
-/*
+
 package ginie.database.Repository;
+
+import com.google.inject.Inject;
 
 import javax.persistence.EntityManager;
 import javax.persistence.criteria.CriteriaBuilder;
@@ -9,47 +11,43 @@ import javax.persistence.metamodel.EntityType;
 import javax.transaction.Transactional;
 import java.util.List;
 
-*/
 /**
  * Created by dhruvr on 4/8/16.
- *//*
+ */
 
-public class AbstractHibernateRepository<T> {
+public class AbstractDao<T> {
 
     protected Class<T> entityClass;
-    protected EntityManager entityManager;
 
-    public AbstractHibernateRepository(EntityManager entityManager {
-        this.entityManager = entityManager;
+    @Inject
+    private EntityManager em;
+
+    public AbstractDao(Class<T> entityClass) {
         this.entityClass = entityClass;
     }
 
     protected EntityManager getEntityManager() {
-        return this.entityManager;
+        return this.em;
     }
 
-    */
-/**
+    /**
      * Retrieves the meta-model for a certain entity.
      *
      * @return the meta-model of a certain entity.
-     *//*
-
+     */
     protected EntityType<T> getMetaModel() {
         return getEntityManager().getMetamodel().entity(entityClass);
     }
 
     @Transactional
-    public T create(T entity) {
+    public void create(T entity) {
         getEntityManager().persist(entity);
-        return entity;
     }
 
     @Transactional
-    public T update(T entity) {
-        return getEntityManager().merge(entity);
+    public void update(T entity) {
+        getEntityManager().merge(entity);
     }
-
 
     @Transactional
     public void remove(Long entityId) {
@@ -64,21 +62,18 @@ public class AbstractHibernateRepository<T> {
         getEntityManager().remove(getEntityManager().merge(entity));
     }
 
-    @Transactional
     public T find(Object id) {
         return getEntityManager().find(entityClass, id);
     }
 
-    @Transactional
     public List<T> findAll() {
         CriteriaQuery<T> cq = getEntityManager().getCriteriaBuilder()
                 .createQuery(entityClass);
         cq.select(cq.from(entityClass));
-        List<T> listResult = getEntityManager().createQuery(cq).getResultList();
-        return listResult;
+
+        return getEntityManager().createQuery(cq).getResultList();
     }
 
-    @Transactional
     public List<T> findRange(int[] range) {
         CriteriaQuery<T> cq = getEntityManager().getCriteriaBuilder()
                 .createQuery(entityClass);
@@ -91,7 +86,6 @@ public class AbstractHibernateRepository<T> {
         return q.getResultList();
     }
 
-    @Transactional
     public int count() {
         CriteriaBuilder cb = getEntityManager().getCriteriaBuilder();
         CriteriaQuery<Long> cq = cb.createQuery(Long.class);
@@ -102,14 +96,5 @@ public class AbstractHibernateRepository<T> {
         return count.intValue();
     }
 
-    @Transactional
-    public void deleteAll() {
-        EntityManager em = getEntityManager();
-        String query = new StringBuilder("DELETE FROM ")
-                .append(entityClass.getSimpleName())
-                .append(" e")
-                .toString();
-        em.createQuery(query).executeUpdate();
-    }
 }
-*/
+

@@ -5,9 +5,8 @@
 
         <persistence-unit name="persistUnits" transaction-type="RESOURCE_LOCAL">
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
-<!--
-        <class>com.exzeo.indexer.persistence.entity.AvailableServerEntity</class>
--->
+
+        <class>ginie.database.entities.Test</class>
 
         <properties>
             <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
