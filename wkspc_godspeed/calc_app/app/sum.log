@@ -1,0 +1,80 @@
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:45:12.847Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:47:15.055Z"}
+{"level":"info","message":"Recieved params: undefined and undefined. Operator is undefined","timestamp":"2016-08-06T07:47:37.062Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is  ","timestamp":"2016-08-06T07:48:12.225Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:50:14.502Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:50:31.928Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:50:54.504Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:51:56.196Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:51:58.604Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:52:34.205Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:52:37.264Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:52:56.438Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:53:04.577Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:53:55.168Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:53:57.670Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:54:31.439Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:54:35.030Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:56:03.796Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:56:57.672Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:57:20.736Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T07:58:27.380Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T07:58:37.078Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:00:20.421Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T08:00:29.905Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:02:10.084Z"}
+{"level":"info","message":"Recieved params: 4 and 6. Operator is add","timestamp":"2016-08-06T08:02:17.857Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:05:21.396Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:06:08.896Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:06:49.298Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:06:52.231Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:07:18.557Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:07:21.491Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:10:34.214Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:10:40.674Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:12:22.515Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:12:27.730Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:14:13.223Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:14:17.766Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:15:13.075Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:15:18.125Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:16:40.448Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:16:45.288Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:17:09.155Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:17:12.921Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:19:38.695Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:19:43.814Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:24:07.281Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:24:14.088Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:24:29.845Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:24:33.771Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:29:32.449Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:29:37.228Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:30:12.639Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:30:15.534Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:30:51.019Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:30:53.793Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:33:18.649Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:33:22.608Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:34:57.742Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:35:00.565Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T08:35:29.538Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:35:33.212Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:36:55.307Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:38:55.392Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:40:55.545Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:43:00.623Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:45:30.729Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:48:30.834Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T08:55:30.939Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:07:31.037Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:08:16.236Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T09:10:31.325Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:10:39.928Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add1","timestamp":"2016-08-06T09:10:49.618Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:10:55.443Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add1","timestamp":"2016-08-06T09:11:08.445Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:11:25.198Z"}
+{"level":"info","message":"Running on http://localhost:8600","timestamp":"2016-08-06T09:18:54.663Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:18:57.880Z"}
+{"level":"info","message":"Recieved params: 3 and 4. Operator is add","timestamp":"2016-08-06T09:21:32.755Z"}
